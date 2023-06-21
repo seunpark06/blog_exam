@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a1487b05-6d91-43be-beea-2b7fd55fd6dc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/springbootdeveloper/controller/BlogApiControllerTest.java" afterDir="false" />
+    <list default="true" id="a1487b05-6d91-43be-beea-2b7fd55fd6dc" name="Changes" comment="테스트케이스 추가">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/springbootdeveloper/dto/ArticleResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/springbootdeveloper/controller/BlogApiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/springbootdeveloper/controller/BlogApiController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/springbootdeveloper/service/BlogService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/springbootdeveloper/service/BlogService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,8 +57,8 @@
       <list>
         <option value="package-info" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -100,7 +101,7 @@
       <recent name="org.example.springbootdeveloper.controller" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.BlogApiControllerTest.addArticle">
+  <component name="RunManager" selected="Application.SpringbootDeveloperApplication">
     <configuration name="SpringbootDeveloperApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.springbootdeveloper.SpringbootDeveloperApplication" />
       <module name="blog_exam_springboot.main" />
@@ -221,6 +222,14 @@
       <option name="presentableId" value="Default" />
       <updated>1686830621962</updated>
     </task>
+    <task id="LOCAL-00001" summary="테스트케이스 추가">
+      <created>1687178497879</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1687178497879</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -239,6 +248,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="테스트케이스 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="테스트케이스 추가" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
